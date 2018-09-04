@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重写" />
+
+        <Button
+            android:id="@+id/bt_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交" />
+
+
+    </LinearLayout>
+
+    <!--画圆-->
+    <!--<com.example.snow.mystudyview.view.T01CircleView-->
+    <!--android:id="@+id/t01CircleView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--橡皮擦效果-->
+    <com.example.snow.mystudyview.sign.T02View
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="150dp" />
+
+    <com.example.snow.mystudyview.sign.SignView
+        android:id="@+id/signview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!--一阶贝塞尔-->
+    <!--<com.example.snow.mystudyview.view.beisaier.beisaier1-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--二阶贝塞尔-->
+    <!--<com.example.snow.mystudyview.view.beisaier.beisaier2-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--三阶贝塞尔-->
+    <!--<com.example.snow.mystudyview.view.beisaier.beisaier3-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.example.snow.mystudyview.view.beisaier.MessageDragView-->
+    <!--android:id="@+id/messageDragView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--可拖动的圆-->
+    <!--<com.example.snow.mystudyview.myview.T02CirleView-->
+    <!--android:id="@+id/t02CirleView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--圆环进度条，带等级-->
+    <!--<com.example.snow.mystudyview.view.CircleProgressView-->
+    <!--android:id="@+id/circleProgressView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.example.snow.mystudyview.view.T03ProgressView-->
+    <!--android:id="@+id/t03ProgressView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"/>-->
+
+    <!--<com.example.snow.mystudyview.view.MoveCircleView-->
+    <!--android:id="@+id/moveCircleView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.example.snow.mystudyview.view.T04OvalView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.example.snow.mystudyview.view.SubsectionProgressView-->
+    <!--android:id="@+id/subsectionProgressView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"/>-->
+
+    <!--<com.example.snow.mystudyview.myview.ProgressView01-->
+    <!--android:id="@+id/progressView01"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"/>-->
+
+    <!--<com.example.snow.mystudyview.myview.ballflow.BallFlowView01-->
+    <!--android:id="@+id/ballFlowView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.example.snow.mystudyview.collectview.WaveView-->
+    <!--android:id="@+id/waveView"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="200dp"/>-->
+
+    <!--<com.example.snow.mystudyview.myview.ballflow.BallFlowView02-->
+    <!--android:id="@+id/ballFlowView02"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.example.snow.mystudyview.myview.ballflow.BallFlowView03-->
+    <!--android:id="@+id/ballFlowView03"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.example.snow.mystudyview.myview.ballflow.SectorView-->
+    <!--android:id="@+id/sectorView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--<com.example.snow.mystudyview.collectview.CircleImageView-->
+    <!--android:id="@+id/circleImageView"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:src="@mipmap/ic_launcher"/>-->
+
+
+</LinearLayout>
