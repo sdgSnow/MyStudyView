@@ -20,6 +20,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * 签名功能，用户可自动设置画笔颜色，宽度，重写，保存为图片，获取当前签名图片等
+ * */
 public class SignView extends View {
     private Paint linePaint;// 画笔
 
@@ -136,6 +139,14 @@ public class SignView extends View {
         linePaint.setStrokeWidth(lineWidth);
     }
 
+    public int getLineColor() {
+        return lineColor;
+    }
+
+    public float getLineWidth() {
+        return lineWidth;
+    }
+
     /**
      * 清空输入,重新签名
      */
@@ -188,4 +199,5 @@ public class SignView extends View {
         draw(canvas);
         return bitmap;
     }
+
 }
